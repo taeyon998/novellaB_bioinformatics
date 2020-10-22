@@ -17,4 +17,4 @@ My work as an undergraduate research assistant under professor Hongyi Xin in UMJ
    - Criteria:  
     - Plot a 3D graph, (x reads per UMI, capture rate r) vs. probability of capturing x molecules)  
     - Receive user input: (1) number of UMI, (2) number of molecules per UMI, (3) different capture rates  
-   -[3D plot of binomial distribution](3D graph%20(capture rate).png)
+   -[3D plot of binomial distribution](/3D graph%20(capture rate).png)

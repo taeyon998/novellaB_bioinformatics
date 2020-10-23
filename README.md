@@ -21,7 +21,7 @@ My work as an undergraduate research assistant under professor Hongyi Xin in UMJ
 
 2.1 Given certain PCR cycle, find the minimum capture rate (r) needed, and vice versa, in order to achieve below a desired error rate. Error rate is defined as the chance of completely missing the UMI during sequencing.
    - Language: Python
-   - Objective: Missing a UMI during sequencing could lead to a misinterpretation of the cell. There are 2 variables regarding this: (1) PCR amplification cycles, (2) capture rate. Also, there is the (3) thershold probability of missing the UMI, which the biologist can decide on. A biologist could say okay to, for instance, a 1% chance of missing the UMI.
+   - Objective: Missing a UMI during sequencing could lead to a misinterpretation of the cell. There are 2 variables that influence this chance: (1) PCR amplification cycles, (2) capture rate. Also, there would be a (3) thershold probability of missing the UMI, in which the biologist would want. A biologist could say okay to, for instance, a 1% chance of missing the UMI.
    - Criteria:
      - Plot a 3D graph of independent variables (1) PCR amplification cycles and (2) capture rate, and a dependent variable P(x=0), which is the probability of capturing 0 molecules per UMI (completely missing the UMI).
      - Input capture rate & threshold probability -> minimum PCR cycles needed
